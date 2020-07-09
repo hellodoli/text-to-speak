@@ -1,0 +1,23 @@
+.speak-container {
+  padding: 100px 0;
+}
+
+.speak-controls {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.speak-controls > *:not(:last-child) {
+  margin-right: 15px;
+}
+
+.speak-controls__volume-wrapper {
+  display: inline-flex;
+  align-items: center;
+  width: 200px;
+}
+
+.speak-controls__volume {
+  width: 100%;
+}
